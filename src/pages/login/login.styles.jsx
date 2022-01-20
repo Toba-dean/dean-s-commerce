@@ -20,7 +20,7 @@ export const Wrapper = styled.div`
   width: 25%;
   padding: 20px;
   background-color: white;
-  ${mobile({ width: "75%" })}
+  ${mobile({ width: "100%" })}
 `;
 
 export const Title = styled.h1`
@@ -31,6 +31,8 @@ export const Title = styled.h1`
 export const Form = styled.form`
   display: flex;
   flex-direction: column;
+
+
 `;
 
 export const Input = styled.input`
@@ -55,6 +57,8 @@ export const Links = styled.a`
   font-size: 12px;
   text-decoration: underline;
   cursor: pointer;
+
+  ${mobile({fontSize: '10px'})}
 `;
 export const ButtonContainer = styled.div`
     display: flex;
