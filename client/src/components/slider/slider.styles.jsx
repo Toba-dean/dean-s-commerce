@@ -7,6 +7,7 @@ export const Container = styled.div`
   display: flex;
   position: relative;
   overflow: hidden;
+  margin-left: 5px;
   ${mobile({ display: "none" })}
 `
 export const Wrapper = styled.div`
@@ -64,4 +65,5 @@ export const Arrow = styled.div`
   right: ${props => props.direction === 'right' && '10px'};
   cursor: pointer;
   opacity: .5;
+  z-index: 10000;
 `

@@ -7,7 +7,7 @@ const INITIAL_STATE = {
 const categoryReducer = (state = INITIAL_STATE, action) => {
   switch(action.type) {
       default:
-          return state
+        return state
   } 
 }
 
